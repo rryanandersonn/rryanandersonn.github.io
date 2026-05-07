@@ -1,34 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f9;
-        }
-        .container {
-            text-align: center;
-            padding: 2rem;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        h1 { color: #333; }
-        p { color: #666; }
-    </style>
+<title>Ryan Anderson</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #fcfcfc;
+    color: #333;
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 15%; 
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+  }
+
+  p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 30px; /* Space before the buttons */
+  }
+
+  /* Button Styling */
+  .nav-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Removes underline if using <a> tag directly */
+    display: inline-block;
+  }
+
+  .nav-btn:hover {
+    background-color: #555; /* Lightens slightly when hovering */
+  }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello, World!</h1>
-        <p>My GitHub Pages site is officially live.</p>
-    </div>
+
+  <h1>Ryan Anderson</h1>
+
+  <img src="your-photo.jpg" alt="Ryan Anderson" class="profile-img">
+
+  <p>Electrical Engineer BS | GaN Resonator Research 
+    <br>Power GaN Technology Development Engineering Intern</p>
+
+  <div>
+    <a href="about.html" class="nav-btn">About Me</a>
+    <a href="projects.html" class="nav-btn">Projects</a>
+  </div>
+
 </body>
 </html>
